@@ -1,0 +1,103 @@
+[
+    {
+      "_id": "567e1234-e89b-12d3-a456-426614174000",
+      "userId": "923e4567-e89b-12d3-a456-426614174000",
+      "items": [
+        { "contentId": "123e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "987e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "667e1234-e89b-12d3-a456-426614174000",
+      "userId": "a23e4567-e89b-12d3-a456-426614174000",
+      "items": [
+        { "contentId": "223e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "a87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "767e1234-e89b-12d3-a456-426614174000",
+      "userId": "b87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "323e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "b87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "867e1234-e89b-12d3-a456-426614174000",
+      "userId": "c87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "423e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "c87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "967e1234-e89b-12d3-a456-426614174000",
+      "userId": "d87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "523e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "d87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "a67e1234-e89b-12d3-a456-426614174000",
+      "userId": "e87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "623e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "e87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "b67e1234-e89b-12d3-a456-426614174000",
+      "userId": "f87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "723e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "f87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "c67e1234-e89b-12d3-a456-426614174000",
+      "userId": "g87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "823e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "g87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "d67e1234-e89b-12d3-a456-426614174000",
+      "userId": "h87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "923e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "h87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "e67e1234-e89b-12d3-a456-426614174000",
+      "userId": "i87e6543-e21b-45c3-b456-426614174000",
+      "items": [
+        { "contentId": "a23e4567-e89b-12d3-a456-426614174000", "contentType": "TVShow" },
+        { "contentId": "i87e6543-e21b-45c3-b456-426614174000", "contentType": "Movie" }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    }
+  ]
+  

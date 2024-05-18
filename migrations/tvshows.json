@@ -1,0 +1,243 @@
+[
+    {
+      "_id": "123e4567-e89b-12d3-a456-426614174000",
+      "title": "Stranger Things",
+      "description": "A group of kids discover a parallel universe while investigating the disappearance of their friend.",
+      "genres": ["Drama", "Fantasy", "SciFi"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2016-07-15T00:00:00.000Z",
+          "director": "The Duffer Brothers",
+          "actors": ["Winona Ryder", "David Harbour", "Finn Wolfhard"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2016-07-15T00:00:00.000Z",
+          "director": "The Duffer Brothers",
+          "actors": ["Winona Ryder", "David Harbour", "Finn Wolfhard"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "223e4567-e89b-12d3-a456-426614174000",
+      "title": "Breaking Bad",
+      "description": "A high school chemistry teacher turned methamphetamine producer.",
+      "genres": ["Drama", "Crime", "Thriller"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2008-01-20T00:00:00.000Z",
+          "director": "Vince Gilligan",
+          "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2008-01-27T00:00:00.000Z",
+          "director": "Vince Gilligan",
+          "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "323e4567-e89b-12d3-a456-426614174000",
+      "title": "Game of Thrones",
+      "description": "Nine noble families fight for control over the lands of Westeros.",
+      "genres": ["Drama", "Fantasy", "Adventure"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2011-04-17T00:00:00.000Z",
+          "director": "Tim Van Patten",
+          "actors": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2011-04-24T00:00:00.000Z",
+          "director": "Tim Van Patten",
+          "actors": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "423e4567-e89b-12d3-a456-426614174000",
+      "title": "The Office",
+      "description": "A mockumentary on a group of typical office workers.",
+      "genres": ["Comedy", "Drama"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2005-03-24T00:00:00.000Z",
+          "director": "Ken Kwapis",
+          "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2005-03-29T00:00:00.000Z",
+          "director": "Ken Kwapis",
+          "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "523e4567-e89b-12d3-a456-426614174000",
+      "title": "Friends",
+      "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
+      "genres": ["Comedy", "Romance"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "1994-09-22T00:00:00.000Z",
+          "director": "James Burrows",
+          "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "1994-09-29T00:00:00.000Z",
+          "director": "James Burrows",
+          "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "623e4567-e89b-12d3-a456-426614174000",
+      "title": "The Mandalorian",
+      "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy.",
+      "genres": ["Action", "Adventure", "Fantasy"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2019-11-12T00:00:00.000Z",
+          "director": "Dave Filoni",
+          "actors": ["Pedro Pascal", "Carl Weathers", "Gina Carano"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2019-11-15T00:00:00.000Z",
+          "director": "Rick Famuyiwa",
+          "actors": ["Pedro Pascal", "Carl Weathers", "Gina Carano"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "723e4567-e89b-12d3-a456-426614174000",
+      "title": "Sherlock",
+      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+      "genres": ["Crime", "Drama", "Mystery"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2010-07-25T00:00:00.000Z",
+          "director": "Paul McGuigan",
+          "actors": ["Benedict Cumberbatch", "Martin Freeman", "Una Stubbs"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2010-08-01T00:00:00.000Z",
+          "director": "Paul McGuigan",
+          "actors": ["Benedict Cumberbatch", "Martin Freeman", "Una Stubbs"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "823e4567-e89b-12d3-a456-426614174000",
+      "title": "Westworld",
+      "description": "Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence.",
+      "genres": ["Drama", "Mystery", "SciFi"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2016-10-02T00:00:00.000Z",
+          "director": "Jonathan Nolan",
+          "actors": ["Evan Rachel Wood", "Jeffrey Wright", "Ed Harris"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2016-10-09T00:00:00.000Z",
+          "director": "Richard J. Lewis",
+          "actors": ["Evan Rachel Wood", "Jeffrey Wright", "Ed Harris"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "923e4567-e89b-12d3-a456-426614174000",
+      "title": "The Witcher",
+      "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+      "genres": ["Action", "Adventure", "Drama"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2019-12-20T00:00:00.000Z",
+          "director": "Alik Sakharov",
+          "actors": ["Henry Cavill", "Freya Allan", "Anya Chalotra"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2019-12-20T00:00:00.000Z",
+          "director": "Alex Garcia Lopez",
+          "actors": ["Henry Cavill", "Freya Allan", "Anya Chalotra"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    },
+    {
+      "_id": "a23e4567-e89b-12d3-a456-426614174000",
+      "title": "Black Mirror",
+      "description": "An anthology series exploring a twisted, high-tech multiverse where humanity's greatest innovations and darkest instincts collide.",
+      "genres": ["Drama", "SciFi", "Thriller"],
+      "episodes": [
+        {
+          "episodeNumber": 1,
+          "seasonNumber": 1,
+          "releaseDate": "2011-12-04T00:00:00.000Z",
+          "director": "Otto Bathurst",
+          "actors": ["Daniel Lapaine", "Hannah John-Kamen", "Michaela Coel"]
+        },
+        {
+          "episodeNumber": 2,
+          "seasonNumber": 1,
+          "releaseDate": "2011-12-11T00:00:00.000Z",
+          "director": "Euros Lyn",
+          "actors": ["Daniel Lapaine", "Hannah John-Kamen", "Michaela Coel"]
+        }
+      ],
+      "created_at": "2024-05-01T12:34:56.789Z",
+      "updated_at": "2024-05-01T12:34:56.789Z"
+    }
+  ]
+  
