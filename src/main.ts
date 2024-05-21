@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import { VersioningType } from '@nestjs/common';
+import { ValidationPipe, VersioningType } from '@nestjs/common';
 import { Configs } from './config/config';
 import { GlobalResponseInterceptor } from './common/response.interceptor';
 import { GlobalExceptionFilter } from './errors/custom.errors';
@@ -28,6 +28,7 @@ async function bootstrap() {
   app.useGlobalFilters(new GlobalExceptionFilter());
   app.use(compression());
   app.useGlobalInterceptors(new GlobalResponseInterceptor());
+  app.useGlobalPipes(new ValidationPipe());
   await app.listen(Configs().port, '0.0.0.0');
 }
 bootstrap();

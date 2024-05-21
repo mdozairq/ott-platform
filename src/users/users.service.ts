@@ -1,4 +1,3 @@
-// services/auth.service.ts
 import { Injectable, HttpStatus, Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
@@ -8,6 +7,7 @@ import { SignInDto } from './dto/sign-in.dto';
 import { HttpError } from 'src/errors/custom.errors';
 import * as bcrypt from 'bcrypt';
 import * as jwt from 'jsonwebtoken';
+import { Configs } from 'src/config/config';
 
 @Injectable()
 export class UsersService {
@@ -54,7 +54,7 @@ export class UsersService {
 
   private generateToken(user: userDocument) {
     const payload = { userId: user._id, email: user.email };
-    const token = jwt.sign(payload, 'SECRET_KEY', { expiresIn: '1h' });
+    const token = jwt.sign(payload, Configs().jwt.secret, { expiresIn: '1h' });
     return { token };
   }
 }

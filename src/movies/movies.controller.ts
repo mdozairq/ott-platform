@@ -1,4 +1,3 @@
-// controllers/movie.controller.ts
 import { Controller, Get, Post, Patch, Delete, Body, Param, Query, HttpStatus } from '@nestjs/common';
 import { MovieService } from './movies.service';
 import { CreateMovieDto } from './dto/create-movie.dto';
@@ -20,7 +19,7 @@ export class MovieController {
   }
 
   @Get()
-  @Roles(Role.ADMIN)
+  @Roles(Role.PUBLIC)
   @ApiOperation({ summary: 'List All Movies' })
   @ApiResponse({ status: HttpStatus.OK, description: 'List of movies' })
   findAll(@Query('page') page: number, @Query('page_size') pageSize: number) {
@@ -28,7 +27,7 @@ export class MovieController {
   }
 
   @Get(':id')
-  @Roles(Role.ADMIN)
+  @Roles(Role.PUBLIC)
   @ApiOperation({ summary: 'Get Movie by ID' })
   @ApiResponse({ status: HttpStatus.OK, description: 'Movie details' })
   @ApiResponse({ status: HttpStatus.NOT_FOUND, description: 'Movie not found' })

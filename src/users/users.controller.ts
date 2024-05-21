@@ -1,4 +1,3 @@
-// controllers/auth.controller.ts
 import { Controller, Post, Body, HttpStatus } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { SignUpDto } from './dto/sign-up.dto';
@@ -24,6 +23,7 @@ export class UsersController {
   })
   @ApiResponse({ status: HttpStatus.CONFLICT, description: 'Email already in use' })
   signUp(@Body() signUpDto: SignUpDto) {
+    console.log(signUpDto)
     return this.authService.signUp(signUpDto);
   }
 

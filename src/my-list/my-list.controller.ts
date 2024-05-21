@@ -4,6 +4,7 @@ import { AddToListDto } from './dto/add-to-list.dto';
 import { ApiHeader, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Roles } from 'src/role/role-decorators';
 import { Role } from 'src/role/role-guard';
+import { CurrentUser } from 'src/common/current-user.decorator';
 
 @ApiTags('my-list')
 @Controller('my-list')
@@ -30,8 +31,8 @@ export class MyListController {
     status: HttpStatus.CONFLICT,
     description: 'Item already exists in the list',
   })
-  addToList(@Body() addToListDto: AddToListDto) {
-    return this.myListService.addToList(addToListDto, "");
+  addToList(@CurrentUser() user, @Body() addToListDto: AddToListDto) { 
+    return this.myListService.addToList(addToListDto, user.userId);
   }
 
   @Delete('/remove/:contentId')
@@ -53,8 +54,8 @@ export class MyListController {
     status: HttpStatus.NOT_FOUND,
     description: 'Item not found in the list',
   })
-  removeFromList(@Param('contentId') contentId: string) {
-    return this.myListService.removeFromList(contentId, "");
+  removeFromList(@CurrentUser() user, @Param('contentId') contentId: string) {
+    return this.myListService.removeFromList(contentId, user.userId);
   }
 
   @Get('/list')
@@ -72,7 +73,7 @@ export class MyListController {
     description: 'Items have been successfully listed',
   })
   @ApiResponse({ status: HttpStatus.FORBIDDEN, description: 'Forbidden.' })
-  listMyItems(@Query('page') page: number, @Query('page_size') pageSize: number) {
-    return this.myListService.listMyItems(page, pageSize);
+  listMyItems(@CurrentUser() user, @Query('page') page: number, @Query('page_size') pageSize: number) {
+    return this.myListService.listMyItems(page, pageSize, user.userId);
   }
 }

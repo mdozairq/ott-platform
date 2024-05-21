@@ -21,7 +21,7 @@ export class MyList {
   @Prop({ default: uuidv4 })
   _id: string;
 
-  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, unique: true })
+  @Prop({ type: mongoose.Schema.Types.String, ref: 'User', required: true, unique: true })
   userId: string;
 
   @Prop({ type: [MyListItem], default: [], unique: true })

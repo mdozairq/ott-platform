@@ -15,7 +15,13 @@ export class MyListService {
   async addToList(addToListDto: AddToListDto, user_id: string) {
     const { contentId, contentType } = addToListDto;
     const userId = user_id; 
-    let userMyList = await this.myListModel.findOne({ userId });
+    let userMyList 
+    try{
+      userMyList = await this.myListModel.findOne({ userId });
+  } catch (error) {
+    console.log(error);
+    throw HttpError(HttpStatus.INTERNAL_SERVER_ERROR, "Something went wrong")
+  }
 
     if (!userMyList) {
       userMyList = new this.myListModel({
@@ -50,10 +56,16 @@ export class MyListService {
     return userMyList.save();
   }
 
-  async listMyItems(page: number = 0, pageSize: number = 10) {
-    const userId = 'some-user-id'; // Replace with the actual user ID from the authentication context
+  async listMyItems(page: number = 0, pageSize: number = 10, user_id: string) {
+    const userId = user_id
+    let userMyList
 
-    const userMyList = await this.myListModel.findOne({ userId }).lean();
+    try {
+      userMyList = await this.myListModel.findOne({ userId }).lean();
+    } catch (error) {
+      console.log(error);
+    throw HttpError(HttpStatus.INTERNAL_SERVER_ERROR, "Something went wrong")
+    }
     if (!userMyList) {
       return [];
     }

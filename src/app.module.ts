@@ -10,6 +10,7 @@ import { jwtFactory } from './jwt/auth.jwt';
 import { UsersModule } from './users/users.module';
 import { MovieModule } from './movies/movies.module';
 import { TVShowModule } from './tv-shows/tv-shows.module';
+import { MyListModule } from './my-list/my-list.module';
 
 
 @Module({
@@ -20,6 +21,7 @@ import { TVShowModule } from './tv-shows/tv-shows.module';
     UsersModule,
     MovieModule,
     TVShowModule,
+    MyListModule
   ],
   controllers: [],
   providers: [

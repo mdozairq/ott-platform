@@ -21,7 +21,7 @@ export class TVShowController {
 
 
   @Get()
-  @Roles(Role.ADMIN)
+  @Roles(Role.PUBLIC)
   @ApiOperation({ summary: 'List All TV Shows' })
   @ApiResponse({ status: HttpStatus.OK, description: 'List of TV shows' })
   findAll(@Query('page') page: number, @Query('page_size') pageSize: number) {
